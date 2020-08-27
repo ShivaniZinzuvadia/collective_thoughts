@@ -1,7 +1,9 @@
 # collective_thoughts
-Website developed to keep all thoughts and quotes noted, which are said by the ancestors
+- The website is developed to maintain the various thoughts and quotes which are said by the ancestors.
+- After the successful Registration and Login, the user will be able to maintain the records of the thoughts or inspirational quotes. 
+- To share the thoughts with other users, the registred user will also get the unique URL of the page which will display all the thoughts. 
 
-## Project steup steps for Windows
+## Project setup steps for Windows
 1) Composer install
 2) npm install
 3) copy .env.example .env
