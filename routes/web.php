@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::domain('{username}.localhost')->group(function () {
+Route::domain('{username}.'.env('APP_URL'))->group(function () {
     Route::get('/', 'ShowPage@getMyPage')->name('getMyPage');
 });
 
