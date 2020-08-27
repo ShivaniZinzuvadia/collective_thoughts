@@ -6,9 +6,10 @@
 ## Project setup steps for Windows
 1) Composer install
 2) npm install
-3) copy .env.example .env
-4) php artisan key:generate
-5) Update database and email related details in .env file 
+3) npm run dev
+4) copy .env.example .env
+5) php artisan key:generate
+6) Update database and email related details in .env file 
     DB_CONNECTION=mysql
     DB_HOST=127.0.0.1
     DB_PORT=3306
@@ -24,6 +25,6 @@
     MAIL_ENCRYPTION=null
     MAIL_FROM_ADDRESS=null
     MAIL_FROM_NAME="${APP_NAME}"
-6) php artisan migrate
-7) php artisan db:seed --class=ThoughtsData
+7) php artisan migrate
+8) php artisan db:seed --class=ThoughtsData
 
